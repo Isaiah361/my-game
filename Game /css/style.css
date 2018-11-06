@@ -1,0 +1,29 @@
+.board{
+    background-image: url("myGrass.png");
+    position:relative;
+    left: 23.5%;
+    height: 750px;
+    width: 750px;
+}
+
+.grid {
+    background-image: url("myGrass.png");
+    position: relative;
+    bottom: 1100px;
+    border-collapse:collapse;
+    left: 23.5%;
+    z-index: 1000;
+  }
+  .grid td {
+    cursor:pointer;
+    width:100px;
+    height:100px;
+    text-align:center;
+    font-family:sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.grid td.clicked {
+    background-color:rgba(0,0,0,0.5);
+    font-weight:bold;
+}
