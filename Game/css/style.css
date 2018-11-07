@@ -1,0 +1,40 @@
+#battle {
+    background-image: url("../images/myGrass.png");
+    width: 800px;
+    height: 540px;
+    padding: 70px;
+    margin: 0px auto;
+    border-radius: 84px;
+    box-shadow: inset 0px 0px 20px -6px rgba(97, 89, 97, 1);
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between
+  
+}
+.rigthDiv{
+  
+  justify-content: start;
+
+}
+.leftDiv{
+ 
+  justify-content: end;
+    
+}
+.char1 {
+  margin: 30px;
+  background: red;
+  width: 60px;
+  height: 60px;
+}
+
+.char2 {
+  margin: 30px;
+  background: blue;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: end;
+}
