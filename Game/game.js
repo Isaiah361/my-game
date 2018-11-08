@@ -95,7 +95,7 @@ class game {
 
   // let palyerIndex = theGame.selectedPlayer1Index 
 // console.log(palyerIndex)
-  let archer = new character("archer", 100, 20,"femalearcher.gif");
+  let archer = new character("archer", 100, 20,);
   let warrior = new character("warrior", 100, 40);
   let mage = new character("mage", 100, 85);
   let rogue = new character("rogue", 100, 75);

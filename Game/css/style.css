@@ -23,8 +23,10 @@ flex-direction: column
   flex-direction: column
 
 }
-.h1{
+h1{
   font-style: oblique;
+  display: flex;
+  justify-content: center
 }
 .rigthDiv{
   
@@ -49,4 +51,8 @@ flex-direction: column
   width: 60px;
   height: 60px;
   
+}
+.bttn{
+  display: flex;
+  justify-content: end
 }
