@@ -71,7 +71,7 @@ class game {
       this.name = name;
       this.hp = hp;
       this.attc = attc;
-      this.pic = ('/Game/images/rider.gif');
+      this.pic = ('rider.gif');
     
     }
 
@@ -95,7 +95,7 @@ class game {
 
   // let palyerIndex = theGame.selectedPlayer1Index 
 // console.log(palyerIndex)
-  let archer = new character("archer", 100, 20,"/Game/images/female archer.gif");
+  let archer = new character("archer", 100, 20,"femalearcher.gif");
   let warrior = new character("warrior", 100, 40);
   let mage = new character("mage", 100, 85);
   let rogue = new character("rogue", 100, 75);
@@ -139,9 +139,9 @@ class game {
     setInterval(()=>{ 
       let rightDiv = "";
 theGame.player1.forEach(character => {
-  rightDiv += '<div class="char1" name="' + character.name + '">';
+  rightDiv += '<div class="char1" name="' + character.name + '"   style="background: url(./images/'+ character.pic +') no-repeat; background-size: cover">';
   rightDiv += '  <div  name="' + character.name + '"></div>';
-  rightDiv += '  <div class="front" style="background: url /../images('+ character.pic +') no-repeat"></div>';
+  rightDiv += '  <div class="front" ></div>';
   rightDiv += '  <p>"' + character.name + '"</p>';
   rightDiv += "</div>";
   rightDiv += `<progress id='health' value=${
@@ -149,6 +149,7 @@ theGame.player1.forEach(character => {
   }  max='100'></progress>`;
 });
 $("#rightbattle").html(rightDiv);
+
 // console.log('1: ', $("#battle"))
 
 let leftDiv = "";

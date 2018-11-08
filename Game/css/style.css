@@ -23,6 +23,9 @@ flex-direction: column
   flex-direction: column
 
 }
+.h1{
+  font-style: oblique;
+}
 .rigthDiv{
   
   
@@ -34,10 +37,10 @@ flex-direction: column
     
 }
 .char1 {
-  margin: 30px;
+ 
   background: red; 
-  width: 60px;
-  height: 60px;
+  width: 146px;
+  height: 146px;
 }
 
 .char2 {
