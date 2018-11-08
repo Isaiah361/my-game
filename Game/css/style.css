@@ -1,26 +1,36 @@
-#battle {
-    background-image: url("../images/myGrass.png");
+
+  
+
+.container {
+  background-image: url("../images/myGrass.png");
     width: 800px;
     height: 540px;
     padding: 70px;
     margin: 0px auto;
     border-radius: 84px;
     box-shadow: inset 0px 0px 20px -6px rgba(97, 89, 97, 1);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between
+#rightbattle{
+display: flex;
+flex-direction: column
+}
   
+#leftbattle{
+  display: flex;
+  flex-direction: column
+
 }
 .rigthDiv{
   
-  justify-content: start;
+  
 
 }
 .leftDiv{
  
-  justify-content: end;
+  
     
 }
 .char1 {
@@ -35,6 +45,5 @@
   background: blue;
   width: 60px;
   height: 60px;
-  display: flex;
-  justify-content: end;
+  
 }
